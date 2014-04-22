@@ -1,0 +1,130 @@
+.fa{
+  padding-right: 0.5em;
+}
+
+.homepage-hero {
+  background: url(../img/header_2.jpg) #074e68;
+/*  background: green;*/
+  height: 400px;
+  text-align: left;
+  position: relative;
+  padding: 100px 20px 0 20px;
+  border-bottom: 1px solid #cecdcb;
+
+}
+.color_white{
+  color:  #fbf5f5;
+  font-family: 'Open Sans';
+  font-weight: 700;
+}
+
+.text_shadow{
+  text-shadow: 1px 1px 5px rgba(10, 10, 10, 1);
+}
+
+body{
+  background: #fffbe1;
+  font-family: 'Open Sans', 'sans-serif';
+  line-height: 1.5em;
+}
+
+.container{
+  margin-top: 1em;
+  padding-bottom: 0em;
+}
+
+footer{
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  line-height:1.5em;
+  font-size: 0.9em;
+  padding-top:0.8em;
+  background: #e3cb2d;
+  border-top: 1px solid #cecdcb;
+  color: #747614;
+
+}
+
+.top-bar{
+  background: #e3cb2d;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background: #e3cb2d;
+  color: #645d0d;
+  //border-right: 1px solid #c7a043;
+  font-family: 'Open Sans', 'sans-serif';
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background: #9c8a17;
+  font-family: 'Open Sans', 'sans-serif';
+}
+
+.top-bar .name h1 a {
+  color: #645d0d;
+  font-family: 'Open Sans', 'sans-serif';
+  font-weight:  700;
+}
+
+.title-area{
+  background: #e3cb2d;
+  //border-left: 1px solid #c7a043;
+}
+
+.title-area li{
+  background: #e3cb2d;
+}
+
+.sub_menu_section .dropdown{
+  text-align:left;
+}
+
+.first{
+  //border-left: 1px solid #c0a915;
+}
+
+.sub_menu_top_bar {
+  text-align:center;
+  margin-top: -1.5em;
+  border-left: 5px solid  #c0a915;
+  border-right: 5px solid #c0a915;
+}
+
+.sub_menu_section li:not(.has-form) a:not(.button) {
+  background: #e3cb2d;
+  color: #fff5f5;
+  font-family: 'Open Sans', 'sans-serif';
+  font-weight: 700;
+}
+
+
+.sub_menu_section {
+  display: inline-block;
+}
+
+
+.contain-to-grid{
+  background: #e3cb2d;
+  border-bottom: 1px solid #c7a043;
+}
+.news_panel{
+  display: inline-block;
+  background:#fafafa;
+  border-color: #efd778;
+  border-bottom: 3px solid #efd778;
+}
+
+.news_panel h5{
+  color: #625e5e;
+}
+.news_panel p{
+  border-top: 1px solid #cbc8c8;
+  padding-top: 0.5em;
+  color: #595858
+}
+
+.news_panel a{
+  color: #45a8a0;
+}
